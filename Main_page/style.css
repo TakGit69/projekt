@@ -1,5 +1,10 @@
+
 *{
     padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.carousel-item img{
+    height: 400px;
 }
 
 .text-1{
@@ -53,13 +58,14 @@ nav ul li a:hover{
 }
 
 .nav2{
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     padding: 0.4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(2, 2, 32);
 }
+
 
 .nav2 img{  
     max-width: 5rem;
@@ -109,4 +115,19 @@ nav ul li a:hover{
         flex-direction: column;
         justify-content: center;
     }
+}
+
+.urlap{
+    margin:auto;
+    background-color: rgba(27, 38, 59, .8);
+    margin: 1rem 19rem 0 19rem;
+    border-radius: 15px;
+    padding: 10px;
+}
+.urlap h5, label, a{
+    color: white;
+}
+
+.urlap a{
+    text-decoration: none;
 }

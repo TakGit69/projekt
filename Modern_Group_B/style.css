@@ -4,7 +4,7 @@
 
 body{
     background-image: url(../pics/modernbg.jpg);
-    background-position: fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,7 +27,7 @@ body{
 
 button{
     border-radius: 0.7rem;
-    background-color: rgb(3, 9, 90);
+    background-color: rgb(2, 4, 39);
     color: #fff;
     font-size: 1.3rem;
     padding: 0.3rem;
